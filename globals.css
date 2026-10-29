@@ -149,3 +149,15 @@ button.botao {
   margin-top: 8px;
   color: #c1121f;
 }
+.paginacao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+button.botao:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
